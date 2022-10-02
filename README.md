@@ -20,7 +20,7 @@ $ catkin_make
 2. Download `visualization-rwt` package. it is for voice recognition
 
 ```shell
-$ apt-get install ros-$ROS_DISTRO-visualization-rwt
+$ sudo apt-get install ros-$ROS_DISTRO-visualization-rwt
 ```
 
 THANK YOU SO MUCH FOR [visualization-rwt](https://github.com/tork-a/visualization_rwt)
