@@ -32,6 +32,7 @@ class TeleopVoice(object):
             transcript = msg_voice.transcript
             confidence = msg_voice.confidence
             candidates = self.get_candidates(transcript, confidence)
+            candidate = candidate.lower()
             if len(candidates) == 0:
                 pass
             else:
